@@ -1,0 +1,32 @@
+.footer {
+    margin-top: 100px;
+
+    &-title-box {
+        display: flex;
+        justify-content: center;
+    }
+    &-input {
+        padding: 14px 40px;
+        border-radius: 61px;
+        background: #9FB1DE;
+        border: 0;
+    }
+    &-boxes {
+display: flex;
+flex-direction: column;
+gap: 14px;
+    }
+    &-list {
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    &-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
