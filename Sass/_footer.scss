@@ -1,32 +1,71 @@
 .footer {
     margin-top: 100px;
 
+
+    &-btn {
+        border: 3px solid #4D6BB9;
+        border-radius: 61px;
+        padding: 10px 4px;
+        width: 50%;
+        cursor: pointer;
+    }
+
+    &-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 118.5%;
+        display: flex;
+        align-items: center;
+        color: #4D6BB9;
+    }
+
     &-title-box {
         display: flex;
         justify-content: center;
     }
+
     &-input {
         padding: 14px 40px;
         border-radius: 61px;
         background: #9FB1DE;
         border: 0;
     }
+
     &-boxes {
-display: flex;
-flex-direction: column;
-gap: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        align-items: center;
     }
+
     &-list {
         text-decoration: none;
         list-style: none;
         display: flex;
         flex-direction: column;
-        
+        gap: 30px;
+
+        &-link {
+            color: #4D6BB9;
+            text-decoration: none;
+            list-style-type: none;
+        }
     }
 
     &-wrapper {
         display: flex;
         justify-content: center;
         margin-top: 50px;
+
+    }
+
+    &-bottom {
+        height: 145px;
+        background: #2D3751;
+        border-radius: 0px;
+        margin-top: 50px;
+        width: 100%;
     }
 }
