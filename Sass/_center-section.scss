@@ -1,74 +1,88 @@
 .center-section {
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
+    margin-top: 140px;
 }
 
 .center-box1 {
- 
-   margin-left: auto;
-   margin-right: auto;
-    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
     &-title {
         font-style: normal;
-            font-weight: 800;
-            font-size: 60px;
-            line-height: 118.5%;
-            display: flex;
-            align-items: center;
-            color: #4D6BB9;
-            margin-bottom: 30px;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 118.5%;
+        display: flex;
+        align-items: center;
+        color: #4D6BB9;
+        margin-bottom: 30px;
     }
+
     &-text {
         font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 18px;
-            color: #4F4F4F;
-            width: 400px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #4F4F4F;
+        width: 400px;
+        text-align: left;
+        margin: 0;
+        padding: 0;
     }
+
     &-bgimg {
         background-image: url(../img/center-photo.png);
         width: 1200px;
         height: 440px;
-position: absolute;
-
+        position: absolute;
+        transform: translate(0%, 40%);
+        z-index: 0;
     }
+
     &-wrapper {
         position: relative;
+        margin-bottom: 125px;
+        margin-left: -800px;
     }
 }
 
-.center-box2{
+.center-box2 {
+    width: 622px;
     position: relative;
-display: flex;
-margin-left: auto;
-margin-right: auto;
-flex-direction: column;
-align-items: center;
-background: #FFFFFF;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
     box-shadow: 0px 4px 50px rgba(77, 107, 185, 0.15);
     border-radius: 30px;
+
     &-title {
         font-style: normal;
-            font-weight: 800;
-            font-size: 60px;
-            line-height: 118.5%;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: #4D6BB9;
-            margin-bottom: 30px;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 118.5%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #4D6BB9;
+        margin-bottom: 30px;
     }
+
     &-text {
         font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 18px;   
-            text-align: center;
-            color: #4F4F4F;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #4F4F4F;
+
     }
+
     &-textwrapper {
         width: 520px;
         margin-bottom: 30px;

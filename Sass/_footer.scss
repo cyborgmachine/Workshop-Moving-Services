@@ -10,6 +10,11 @@
         cursor: pointer;
     }
 
+    &-btn:hover {
+        background-color: #212dda;
+        color: #fff;
+    }
+
     &-title {
         font-family: 'Poppins';
         font-style: normal;
@@ -51,6 +56,18 @@
             color: #4D6BB9;
             text-decoration: none;
             list-style-type: none;
+            font-family: 'TT Hoves';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            display: flex;
+            gap: 20px;
+        }
+
+        &-link:hover {
+            color: #062572;
+
         }
     }
 
@@ -58,7 +75,7 @@
         display: flex;
         justify-content: center;
         margin-top: 50px;
-
+        gap: 50px;
     }
 
     &-bottom {

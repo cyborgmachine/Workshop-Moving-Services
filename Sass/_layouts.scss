@@ -1,41 +1,91 @@
-.header-section {
-    width: 1900px;
-    background-image: url(../img/header-photo.png);
-}
+.header {
 
-.header-box {
-    width: 880px;
-    background: #4D6BB9;
-    border-radius: 0px 30px 0px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-top: 200px;
-    margin-left: 0;
-    flex-direction: column;
-    align-content: flex-end;
-}
+    &-section {
 
-.header-text {
-    font-style: normal;
+        background-image: url(../img/header-photo.png);
+    }
+
+    &-wrapper-box {
+        position: relative;
+    }
+
+    &-box {
+        max-width: 880px;
+        background: #4D6BB9;
+        border-radius: 0px 30px 0px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-top: 200px;
+        margin-left: 0;
+        flex-direction: column;
+        align-content: flex-end;
+    }
+
+    &-box-2 {
+        max-width: 622px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 50px rgba(77, 107, 185, 0.15);
+        border-radius: 30px;
+        position: absolute;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+        top: calc(50% + 240px);
+        left: calc(60% + 100px);
+        padding-left: 75px;
+        padding-top: 30px;
+        padding-right: 140px;
+    }
+
+    &-box2-textwrapper {
+        width: 368px;
+    }
+
+    &-box2-text {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        color: #4F4F4F;
+        font-style: normal;
         font-weight: 600;
         font-size: 14px;
         line-height: 118.5%;
-        /* or 17px */
-        color: #FFFFFF;
-}
+    }
 
-.header-title {
-    margin-bottom: 30px;
-    margin-right: 55px;
-    font-style: normal;
+    &-box2-title {
+        font-style: normal;
         font-weight: 800;
         font-size: 60px;
         line-height: 118.5%;
-        /* identical to box height, or 71px */
+        display: flex;
+        align-items: center;
+        color: #4D6BB9;
+        white-space: nowrap;
+    }
+
+
+    &-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 118.5%;
+        color: #FFFFFF;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    &-title {
+        margin-bottom: 30px;
+        margin-right: 55px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 118.5%;
         display: flex;
         align-items: center;
         color: #FFFFFF;
+    }
 }
 
 .text-box {
