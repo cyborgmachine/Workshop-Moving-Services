@@ -25,6 +25,12 @@ body {
   color: #fff;
 }
 
+.header-btn-2:hover {
+  color: rgb(240, 240, 240);
+  background-color: #061c9e;
+  border-radius: 30px 30px 0px 0px;
+}
+
 .btn-wrapper {
   display: flex;
   gap: 36px;
@@ -353,6 +359,10 @@ body {
   border-radius: 61px;
   background: #9FB1DE;
   border: 0;
+  cursor: pointer;
+}
+.footer-input:hover {
+  background-color: rgba(33, 45, 218, 0.6509803922);
 }
 .footer-boxes {
   display: flex;

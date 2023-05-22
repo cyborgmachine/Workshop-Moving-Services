@@ -36,6 +36,11 @@
         border-radius: 61px;
         background: #9FB1DE;
         border: 0;
+        cursor: pointer;
+    }
+
+    &-input:hover {
+        background-color: #212ddaa6;
     }
 
     &-boxes {
