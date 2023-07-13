@@ -1,6 +1,10 @@
 .footer {
     margin-top: 100px;
 
+    &-form {
+        background-color: #F2F2F2;
+        padding-bottom: 50px;
+    }
 
     &-btn {
         border: 3px solid #4D6BB9;
@@ -87,7 +91,6 @@
         height: 145px;
         background: #2D3751;
         border-radius: 0px;
-        margin-top: 50px;
         width: 100%;
     }
 }
